@@ -4,7 +4,7 @@ An advanced computer vision system for real-time detection and counting of diffe
 
 ## 🎯 Features
 
-- **Real-time Detection**: YOLOv8-based object detection for 12 different feed bag types
+- **Real-time Detection**: YOLOv11-based object detection for 12 different feed bag types
 - **Multi-platform Support**: Optimized versions for both PC and Raspberry Pi
 - **Advanced Tracking**: Enhanced object tracking with confidence smoothing
 - **Automated Reporting**: Excel export with Arabic labels and performance statistics
@@ -59,7 +59,7 @@ Use the provided Jupyter notebook `training_notebook.ipynb` for model training w
 ```
 bag-counter/
 ├── models/
-│   └── best.pt                    # Trained YOLOv8 model
+│   └── best.pt                    # Trained YOLOv11 model
 ├── src/
 │   ├── pc_bag_counter.py          # PC optimized version
 │   ├── realtime_bag_counter_pi.py # Raspberry Pi version
