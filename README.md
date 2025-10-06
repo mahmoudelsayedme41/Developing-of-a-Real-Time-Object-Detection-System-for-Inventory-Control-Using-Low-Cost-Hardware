@@ -148,7 +148,7 @@ transform = A.Compose([
 ```
 
 ### 3. Model Training
-- **Base Model**: YOLOv8m
+- **Base Model**: YOLOv11s
 - **Epochs**: 200
 - **Image Size**: 640x640
 - **Batch Size**: 16
